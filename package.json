@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/briangershon/github-actions-cron/issues"
   },
-  "homepage": "https://github.com/briangershon/github-actions-cron#readme"
+  "homepage": "https://github.com/briangershon/github-actions-cron#readme",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
 }
