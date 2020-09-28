@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
       - run: npm install
-      - run: npm start
+      - name: Run script
+        run: npm start
         env:
           SECRET_TEST_MESSAGE: ${{ secrets.SECRET_TEST_MESSAGE }}
