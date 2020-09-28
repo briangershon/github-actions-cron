@@ -1,5 +1,4 @@
-name: Run script weekly
-description: Run Node.js script on a schedule.
+name: Run Node.js script on a schedule
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
