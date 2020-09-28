@@ -1,0 +1,19 @@
+{
+  "name": "github-actions-cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briangershon/github-actions-cron.git"
+  },
+  "author": "Brian Gershon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briangershon/github-actions-cron/issues"
+  },
+  "homepage": "https://github.com/briangershon/github-actions-cron#readme"
+}
